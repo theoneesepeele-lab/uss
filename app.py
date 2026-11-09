@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- BARRA LATERAL ---
-st.sidebar.image("logo u.jpg", width=100)
+st.sidebar.image("logo u.jpg", width=220)
 st.sidebar.title("Mi primera barra lateral de Streamlit")
 st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
@@ -15,7 +15,7 @@ if texto_barra:
 
 
 # --- ÁREA PRINCIPAL ---
-st.image("logo u.jpg", width=100)
+st.image("logo u.jpg", width=300)
 st.title("Mi primera aplicación de Streamlit")
 st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
