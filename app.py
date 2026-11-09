@@ -4,7 +4,7 @@ import streamlit as st
 st.sidebar.title("Mi primera barra lateral de Streamlit")
 st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
-st.sidebar.image("logo u.jpg", width=220)
+st.sidebar.image("logo u.jpg", width=250)
 
 if st.sidebar.button("Haz clic pero en la barra lateral"):
     st.sidebar.write("¡Botón de la barra lateral presionado!")
@@ -18,7 +18,7 @@ if texto_barra:
 st.title("Mi primera aplicación de Streamlit")
 st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
-st.image("logo u.jpg", width=380)
+st.image("logo u.jpg", width=400)
 
 if st.button("Haz clic"):
     st.write("¡Botón principal presionado!")
