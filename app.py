@@ -1,10 +1,10 @@
 import streamlit as st
 
-# URL del escudo de la USS para que cargue directamente en la web
-logo_uss = "https://upload.wikimedia.org/wikipedia/commons/2/23/Escudo_Universidad_San_Sebasti%C3%A1n.png"
+# URL oficial de la imagen/logo de la USS
+logo_uss = "https://researchers.uss.cl/skins/custom/images/logo.svg"
 
 # --- BARRA LATERAL ---
-st.sidebar.image(logo_uss, width=120)
+st.sidebar.image(logo_uss, width=160)
 st.sidebar.title("Mi primera barra lateral de Streamlit")
 st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
@@ -18,7 +18,7 @@ if texto_barra:
 
 
 # --- ÁREA PRINCIPAL ---
-st.image(logo_uss, width=120)
+st.image(logo_uss, width=220)
 st.title("Mi primera aplicación de Streamlit")
 st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
