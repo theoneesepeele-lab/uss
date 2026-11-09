@@ -1,6 +1,10 @@
 import streamlit as st
 
+# URL oficial del logo de la Universidad San Sebastián
+logo_url = "https://upload.wikimedia.org/wikipedia/commons/2/23/Escudo_Universidad_San_Sebasti%C3%A1n.png"
+
 # --- BARRA LATERAL ---
+st.sidebar.image(logo_url, width=200)
 st.sidebar.title("Mi primera barra lateral de Streamlit")
 st.sidebar.header("¡Hola, Barra Lateral!")
 st.sidebar.text("Esto es una barra lateral")
@@ -14,6 +18,7 @@ if texto_barra:
 
 
 # --- ÁREA PRINCIPAL ---
+st.image(logo_url, width=150)
 st.title("Mi primera aplicación de Streamlit")
 st.header("¡Hola, Streamlit!")
 st.text("Esta es una aplicación simple")
